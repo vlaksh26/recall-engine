@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recall-engine"
+version = "0.1.0"
+description = "Dependency-free SM-2 spaced repetition and teach-back scoring for voice assistants"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["spaced-repetition", "sm2", "flashcards", "voice", "mcp"]
+
+[tool.setuptools]
+packages = ["recall_engine"]
